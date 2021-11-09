@@ -65,16 +65,15 @@ app.post("/", function(req, res) {
     time: exactTime,
     message: message
   });
-      newUser.save();
-
-      res.sendFile(__dirname + "/success.html");
-      // res.sendFile(__dirname + "/failure.html");
+  newUser.save();
+  res.sendFile(__dirname + "/success.html");
+  // res.sendFile(__dirname + "/failure.html");
 });
 
 
 
 
-app.listen(process.env.PORT || 3000 , function() {
+app.listen(process.env.PORT || 3000, function() {
   console.log("signup server is running on port 3000");
 });
 
