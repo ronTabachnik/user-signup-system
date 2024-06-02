@@ -25,7 +25,7 @@ To run this application locally, you need to have Node.js and MongoDB installed 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/signup-application.git
+    git clone https://github.com/ronTabachnik/user-signup-system.git
     cd signup-application
     ```
 
